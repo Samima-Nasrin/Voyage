@@ -1,0 +1,136 @@
+body {
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+}
+
+/* navbar */
+.navbar {
+    height: 5rem;
+    background-color: white;
+}
+
+.fa-sailboat {
+    color: #202020cb;
+    font-size: 2.5rem;
+    margin-left: 1rem;
+}
+
+.nav-link {
+    color: rgb(32, 32, 32) !important;
+}
+
+/* footer */
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-links a:hover {
+    text-decoration: underline;
+}
+
+.f-info-links,
+.f-info-socials,
+.f-info-brand {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-info-socials i {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 1.6rem;
+}
+
+.f-info {
+    height: 8rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+/* cards */
+.listing-card {
+    border: none !important;
+    margin-bottom: 3rem;
+}
+
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    height: 280px !important;
+    object-fit: cover !important;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+.card-text p {
+    font-weight: 400;
+}
+
+.listing-link {
+    text-decoration: none;
+}
+
+/* card effect */
+.card-img-overlay {
+    opacity: 0;
+}
+
+.card-img-overlay:hover {
+    background-color: white;
+    opacity: 0.2;
+}
+
+/* new card */
+.add-btn {
+    background-color: rgba(37, 182, 122, 0.966) !important;
+    border: none !important;
+}
+
+/* show page */
+.show-img {
+    height: 30vh;
+}
+
+.btns {
+    display: flex;
+
+}
+
+.show-card {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* map */
+#map {
+    height: 300px;
+    width: 90vh;
+}
+
+.dropdown {
+    margin: 2rem 2rem 2rem 2rem;
+    border: 1px solid #7e7e7e7e;   /* Adjust color and thickness */
+    border-radius: 50px; 
+    padding: 0.3rem 1rem 0.3rem 0.2rem;
+}
+
+.fa-circle-user {
+    color: rgba(0, 0, 0, 0.582);
+    font-size: 2rem;
+    margin-left: 0.7rem;
+}

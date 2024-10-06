@@ -1,0 +1,38 @@
+.acards {
+    margin: 0rem 4rem 0rem 4rem;
+}
+.acards .acard {
+    width: 20rem;
+    margin: 1rem 2.5rem 0rem 2.5rem;
+    transition: transform 0.3s;
+}
+.acards .acard:hover {
+    transform: scale(1.05); 
+}
+@media (max-width: 767.98px) {
+    .acards {
+        margin: 2rem 1rem;
+    }
+}
+.card {
+    border-radius: 0.5rem;
+}
+.card-img-top { 
+    border-radius: inherit !important;  
+    height: 200px; 
+    object-fit: cover; 
+}
+.card-body {
+    padding: 1rem !important;
+    text-decoration: none !important;
+}
+.aboutus {
+    margin-bottom: 5rem;
+}
+.acards .acard a {
+    text-decoration: none; 
+    color: inherit; 
+}
+.carousel-caption h5, .carousel-caption p {
+    color: #131313 !important;
+}
